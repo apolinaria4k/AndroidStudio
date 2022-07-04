@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textSize="35sp"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textSize="35sp"/>
+    <TextView
+        android:id="@+id/textViewTime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:padding="10dp"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Choose Time"
+        android:textSize="22sp"
+        android:onClick="btnopentime_Click"/>
+    <Spinner
+        android:id="@+id/spinfield"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="70dp"
+            android:text="OK"
+            android:textSize="22sp"
+            android:layout_margin="15dp"
+            android:onClick="buttonOK_Click"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.5"
+            android:text="Cancel"
+            android:textSize="22sp"
+            android:layout_margin="15dp"
+            android:onClick="buttonCancel_Click"/>
+    </LinearLayout>
+
+
+</LinearLayout>

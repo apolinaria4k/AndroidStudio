@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5mm">
+<EditText
+    android:id="@+id/et"
+    style="@style/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_marginBottom="2mm"/>
+    <TextView
+        android:id="@+id/tv"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="3mm"
+        android:layout_marginBottom="2mm"/>
+    <Button
+        android:onClick="Button"
+        android:id="@+id/btn"
+        style="@style/btn"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginTop="3mm"/>
+</LinearLayout>

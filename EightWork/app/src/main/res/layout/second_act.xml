@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+        <ListView
+            style="@style/linearLayout"
+            android:id="@+id/list1"/>
+        <ListView
+            style="@style/linearLayout"
+            android:id="@+id/list2"/>
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:id="@+id/editText"
+        android:layout_marginHorizontal="10dp"
+        android:background="@color/background"
+        android:layout_marginBottom="10dp"
+        android:paddingHorizontal="10dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.05">
+        <Button
+            style="@style/btn"
+            android:text="Add To\nList1"
+            android:onClick="addList1Click"/>
+        <Button
+            style="@style/btn"
+            android:text="Add To\nList2"
+            android:onClick="addList2Click"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        android:text="Back"
+        android:textSize="22sp"
+        android:onClick="backClick"/>
+</LinearLayout>

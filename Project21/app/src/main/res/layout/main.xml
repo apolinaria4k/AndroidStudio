@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/lv"
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/border"/>
+    <Button
+        android:onClick="Add"
+        style="@style/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:text="ADD"/>
+</LinearLayout>

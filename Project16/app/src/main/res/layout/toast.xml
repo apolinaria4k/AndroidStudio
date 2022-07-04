@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:id="@+id/toast1"
+    android:background="@color/white">
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp"
+    android:scaleType="centerCrop"
+    android:src="@mipmap/cow"
+    android:layout_marginBottom="3mm"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        style="@style/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#9D9AEA"
+        android:layout_margin="5dp"
+        android:text="Пора кормить кота!" />
+
+    <TextView
+        android:id="@+id/tv2"
+        style="@style/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#DD85EC"
+        android:layout_margin="5dp"
+        android:text="Пора кормить кота!" />
+</LinearLayout>

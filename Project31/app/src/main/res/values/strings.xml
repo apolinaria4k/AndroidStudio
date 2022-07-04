@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Project31</string>
+    <string name="bookgive">Дата получения книги</string>
+    <string name="bookback">Дата возврата книги</string>
+    <string name="timecame">Время прихода</string>
+    <string name="timeout">Время ухода</string>
+</resources>

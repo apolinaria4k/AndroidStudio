@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main\nActivity"
+        android:textSize="50sp"
+        android:textAlignment="center" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="To\nDatePicker\nActivity"
+        android:textSize="40sp"
+        android:layout_margin="15dp"
+        android:onClick="date_Click"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="To\nTimePicker\nActivity"
+        android:textSize="40sp"
+        android:layout_margin="15dp"
+        android:onClick="time_Click"/>
+</LinearLayout>

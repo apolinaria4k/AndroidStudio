@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project15</string>
+    <string name="ListView">str1</string>
+    <string name="EditText">et1</string>
+</resources>

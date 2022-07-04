@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backArt"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<Button
+    android:id = "@+id/btn1"
+    style = "@style/btn"
+    android:text="@string/btn1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <Button
+        android:id = "@+id/btn2"
+        style = "@style/btn"
+        android:text="@string/btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id = "@+id/btn3"
+        style = "@style/btn"
+        android:text="@string/btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id = "@+id/btn4"
+        style = "@style/btn"
+        android:text="Кнопка 4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

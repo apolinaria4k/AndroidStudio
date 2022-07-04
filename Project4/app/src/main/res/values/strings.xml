@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project4</string>
+    <string name="et1">EditText1</string>
+    <string name="et2">EditText2</string>
+    <string name="tv">TextView</string>
+    <string name="plus">Plus</string>
+    <string name="minus">Minus</string>
+    <string name="multiply">Multi</string>
+    <string name="delete">Delete</string>
+</resources>

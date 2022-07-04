@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project7</string>
+    <string name="act">openAct</string>
+    <string name="lv1">ListView1</string>
+    <string name="lv2">ListView2</string>
+    <string name="et">EditText</string>
+    <string name="addLv1">Button1</string>
+    <string name="addLv2">Button2</string>
+    <string name="back">Back</string>
+</resources>

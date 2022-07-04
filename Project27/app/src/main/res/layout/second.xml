@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <EditText
+        style="@style/text"
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_margin="30dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/border"
+        android:padding="10dp" />
+    <EditText
+        style="@style/text"
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:layout_margin="30dp"
+        android:inputType="textMultiLine"
+        android:background="@drawable/border"
+        android:padding="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <Button
+            style="@style/btn"
+            android:id="@+id/buttonOK"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="70dp"
+            android:text="OK"
+            android:layout_margin="15dp"
+            android:onClick="buttonOK_Click"/>
+        <Button
+            style="@style/btn"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="0.5"
+            android:text="Cancel"
+            android:layout_margin="15dp"
+            android:onClick="buttonCancel_Click"/>
+    </LinearLayout>
+</LinearLayout>

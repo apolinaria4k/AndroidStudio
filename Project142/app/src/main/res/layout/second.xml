@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5mm">
+<TextView
+    style="@style/text2"
+    android:text="Вторая активность"
+    android:id="@+id/tv2"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_weight="1"
+    android:layout_marginBottom="5mm"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <EditText
+            style="@style/text1"
+            android:id="@+id/et3"
+            android:layout_marginRight="2mm"
+            android:layout_width="match_parent"
+            android:layout_height="15mm"
+            android:layout_weight="1"/>
+        <EditText
+            style="@style/text1"
+            android:id="@+id/et4"
+            android:layout_marginLeft="2mm"
+            android:layout_width="match_parent"
+            android:layout_height="15mm"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <Button
+        android:onClick="OK"
+        android:id="@+id/btn2"
+        style="@style/btn"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+    <Button
+        android:onClick="Cancel"
+        android:id="@+id/btn3"
+        style="@style/back"
+        android:text="Cancel"
+        android:layout_marginTop="5mm"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"/>
+</LinearLayout>

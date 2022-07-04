@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Project23</string>
+    <string name="str1">Запись добавлена</string>
+    <string name="str2">Запись изменена</string>
+</resources>

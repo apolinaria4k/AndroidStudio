@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ar">
+        <item>No1</item>
+        <item>No2</item>
+        <item>No3</item>
+        <item>No4</item>
+        <item>No5</item>
+        <item>No6</item>
+        <item>No7</item>
+        <item>No8</item>
+        <item>No9</item>
+    </string-array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp">
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_weight="0.8">
+    <ListView
+        android:id="@+id/lv1"
+        style="@style/lv"
+        android:layout_width="match_parent"
+        android:layout_height="50mm"
+        android:layout_weight="1"
+        android:layout_marginRight="2mm"
+        android:layout_marginBottom="3mm"/>
+    <ListView
+        android:id="@+id/lv2"
+        style="@style/lv"
+        android:layout_width="match_parent"
+        android:layout_height="50mm"
+        android:layout_weight="1"
+        android:layout_marginLeft="2mm"
+        android:layout_marginBottom="3mm"/>
+</LinearLayout>
+    <EditText
+        android:id="@+id/et"
+        style="@style/et"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.2"
+        android:layout_marginTop="3mm"
+        android:layout_marginBottom="3mm"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.3">
+        <Button
+            android:id="@+id/edit1"
+            style="@style/edit"
+            android:onClick="Add1"
+            android:text="Add To List1"
+            android:layout_width="match_parent"
+            android:layout_height="17mm"
+            android:layout_weight="1"
+            android:layout_marginRight="2mm"/>
+        <Button
+            android:id="@+id/edit2"
+            style="@style/edit"
+            android:onClick="Add2"
+            android:text="Add To List2"
+            android:layout_width="match_parent"
+            android:layout_height="17mm"
+            android:layout_weight="1"
+            android:layout_marginLeft="2mm"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/back"
+        style="@style/back"
+        android:onClick="Back"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.2"
+        android:text="Back"
+        android:layout_marginLeft="10mm"
+        android:layout_marginRight="10mm"/>
+</LinearLayout>

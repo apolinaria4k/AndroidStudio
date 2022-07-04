@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project5</string>
+    <string name="lv">ListView</string>
+    <string name="et">EditText</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="del">Del</string>
+    <string name="clear">Clear</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Project16</string>
+    <string name="catfood">it`s time to feed the cat</string>
+    <string name="btn1">Показать Toast</string>
+    <string name="btn2">Показать Toast</string>
+    <string name="btn3"></string>
+    <string name="btn4"></string>
+    <string name="btn5"></string>
+    <string name="btn6"></string>
+</resources>

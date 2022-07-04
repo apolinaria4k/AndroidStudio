@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project6</string>
+    <string name="openSec">OpenSecondAct</string>
+    <string name="openThird">OpenThirdAct</string>
+    <string name="et1">EditText1</string>
+    <string name="et2">EditText2</string>
+    <string name="back">Back</string>
+</resources>

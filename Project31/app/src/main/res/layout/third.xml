@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TimePicker Activity"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/textviewcame"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/timecame"
+            android:textSize="15sp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:id="@+id/textviewout"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/timeout"
+            android:textSize="15sp"
+            android:background="@drawable/border"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Установить время прихода"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:onClick="timecame_Click"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="Установить время ухода"
+            android:layout_margin="10dp"
+            android:textSize="12sp"
+            android:onClick="timeout_Click"/>
+    </LinearLayout>
+    <TimePicker
+        android:id="@+id/timething"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Установить текущее время для TimePicker"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:onClick="time_Click"/>
+</LinearLayout>

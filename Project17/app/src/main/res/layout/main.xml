@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        style="@style/text"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="Главная активность"
+        android:layout_margin="4mm"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/et1"
+            style="@style/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_margin="4mm"/>
+        <EditText
+            android:id="@+id/et2"
+            style="@style/text2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_margin="4mm"/>
+    </LinearLayout>
+    <Button
+        android:onClick="secondAct"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_margin="5mm"
+        android:text="Вызов второй активности"/>
+</LinearLayout>
