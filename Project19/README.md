@@ -9,7 +9,7 @@
 
 Внешний вид главной активности:
 
-![image](https://user-images.githubusercontent.com/91782001/177378665-6f249008-344f-47e4-9801-2f75a564df5c.png)
+![image](https://user-images.githubusercontent.com/91782001/177378855-2c73e36d-c611-43f1-9eaa-8ad67651b422.png)
 
  - Разметка для элемента списка – вместо TextView – LinearLayout, внутри которого находятся 2 TextView, 
  один из них – цветной квадратик, второй содержит текст записи.
