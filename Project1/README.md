@@ -17,7 +17,9 @@
  - Для надписей на кнопках использовать ссылки на строковые ресурсы.
 
 Внешний вид при запуске приложения:
-![image](https://user-images.githubusercontent.com/91782001/177368186-ea11487a-13c1-443f-9c40-88923482bc46.png)
+
+![image](https://user-images.githubusercontent.com/91782001/177369062-7ebd59a2-4279-4c28-abd5-59af7521e816.png)
 
 Внешний вид после нажатия на кнопку:
-![image](https://user-images.githubusercontent.com/91782001/177368270-1a768883-d64c-4363-8582-9972bdc4f5e3.png)
+
+![image](https://user-images.githubusercontent.com/91782001/177369149-4556acab-edb1-4124-badf-bebeb3dd3852.png)
